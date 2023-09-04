@@ -15,7 +15,7 @@ def circle():
             x = int(mouse_x + radius * math.sin(angle_between_points * i))
             y = int(mouse_y + radius * math.cos(angle_between_points * i))
             cc.mouse.move(x, y)
-            sleep(0.3)
+            sleep(0.9)
 
 if __name__ == "__main__":
     circle()
